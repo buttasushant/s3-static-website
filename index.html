@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sushant Butta – Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #2b2d42;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 5px;
+    }
+    .profile-photo {
+      text-align: center;
+      margin-top: -20px;
+    }
+    .profile-photo img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #2b2d42;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 0.8s ease-out forwards;
+      animation-delay: calc(var(--i) * 0.2s);
+    }
+    h2 {
+      border-bottom: 2px solid #2b2d42;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #edf2f4;
+      color: #777;
+    }
+    a {
+      color: #2b2d42;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sushant Butta</h1>
+    <p>Tech Lead – Database Development | Oracle • Tableau • Snowflake</p>
+  </header>
+
+  <div class="profile-photo">
+    <img src="profile.jpg" alt="Sushant Butta"/>
+  </div>
+
+  <main>
+    <section style="--i:1;">
+      <h2>👤 Profile</h2>
+      <p>Experienced Tech Lead with 14+ years in application development, database design, and data visualization. Proven track record in building scalable solutions and leading cross-functional teams. Passionate about delivering impactful analytics through Tableau and Snowflake integration.</p>
+    </section>
+
+    <section style="--i:2;">
+      <h2>💼 Experience</h2>
+      <ul>
+        <li><strong>Tech Lead – Database Development</strong>, Natwest Group (2020–Present)</li>
+        <li><strong>Senior Software Designer / Tech Lead</strong>, Natwest Group (2015–2020)</li>
+        <li><strong>Software Designer</strong>, Natwest Group (2013–2015)</li>
+        <li><strong>Developer / Functional Analyst</strong>, Agilis International (2012–2013)</li>
+        <li><strong>IT Analyst / Developer</strong>, Tata Consultancy Services (2007–2012)</li>
+      </ul>
+    </section>
+
+    <section style="--i:3;">
+      <h2>🎓 Education</h2>
+      <ul>
+        <li><strong>B.Tech</strong>, YMCA I.E Faridabad – 72.8% (2007)</li>
+        <li><strong>H.S.C.</strong>, Pratap Public School, Karnal – 83% (2003)</li>
+        <li><strong>S.S.C.</strong>, Pratap Public School, Karnal – 88% (2001)</li>
+      </ul>
+    </section>
+
+    <section style="--i:4;">
+      <h2>🛠️ Skills & Tools</h2>
+      <ul>
+        <li>Languages: Oracle PL/SQL, Apex, UNIX</li>
+        <li>Data & Visualization: Tableau, Snowflake</li>
+        <li>Version Control: GIT, Bit Bucket/Stash, SVN</li>
+        <li>CICD: TeamCity, NAnt</li>
+        <li>Tools: Jira, Confluence, Autosys, Argon, Toad, SQL Developer</li>
+      </ul>
+    </section>
+
+    <section style="--i:5;">
+      <h2>🏆 Achievements</h2>
+      <ul>
+        <li>“Working Together” award for EUDA automation with Tableau visualization</li>
+        <li>FLS team first to migrate app & DB to Enterprise Cloud Platform</li>
+        <li>LOV award for Khalix decommissioning</li>
+        <li>Active member of Treasury Wellbeing group</li>
+        <li>“TCS GEMS AWARD” recipient and faculty trainer for TCS new joiners</li>
+      </ul>
+    </section>
+
+    <section style="--i:6;">
+      <h2>📬 Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:sushant.butta@gmail.com">sushant.butta@gmail.com</a></li>
+        <li>Mobile: +91-9971796784</li>
+        <li>Location: Gurugram, India</li>
+        <li>LinkedIn: <em>Add your profile URL here</em></li>
+        <li>GitHub: <em>Add your profile URL here</em></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Sushant Butta. All rights reserved.
+  </footer>
+
+</body>
+</html>
